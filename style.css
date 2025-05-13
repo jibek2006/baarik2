@@ -326,3 +326,110 @@ height: 250px;
   height: 600px;
   /* background-color: #9c1b1b; */
 }
+.finance_box_divs_card {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.box_all_div {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 200px;
+  /* border: 1px solid #a1e708; */
+}
+
+.all_box_img {
+  width: 80px;
+  height: 80px;
+}
+.all_box_p {
+  font-size: 25px;
+}
+.finance_box_all{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.finance_card_child {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 400px;
+  height: 200px;
+  background-color: #d6f4d6;
+  border-radius:30px;
+  padding: 20px;
+}
+.finance_box_divs {
+  display: flex;
+  padding: 40px;
+  /* padding: 50px; */
+  /* justify-content: center; */
+  /* align-items: center; */
+
+}
+.child_p {
+  font-size: 20px;
+}
+.box_all_div > img {
+  width: 50px;
+  height: 50px;
+}
+.finance_card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.finance_box_divs_card > p {
+  font-size: 40px;
+}
+
+
+
+
+
+.start_cards {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  width: 400px;
+  height: 200px;
+  padding: 20px;
+  font-size: 30px;
+
+  border-radius:30px;
+  background-color: #d6f4d6;
+  
+
+}
+.start_cards_div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+  padding: 30px;
+  gap: 20px;
+  
+}
+.color{
+  color:white;
+
+  background-color: #1e2976;
+}
+.link_card {
+  color:yellow;
+
+}
+.link_card {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+.start_box_divs >p {
+  margin-left: 40px;
+  font-size: 35px;
+}
+
